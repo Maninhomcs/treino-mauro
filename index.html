@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#111827">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>Treino – Mauro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">Plano de Treino – 40min</div>
+      <button class="btn outline" onclick="location.reload()">Atualizar</button>
+    </div>
+    <div class="muted">Foco: emagrecimento e condicionamento. Evite impacto até o pé esquerdo recuperar totalmente.</div>
+
+    <div class="tabs"></div>
+    <div class="tabs2"></div>
+
+    <div id="day"></div>
+
+    <div class="footer">App de treino personalizado · v1.2 · Feito para Mauro (Itatinga/SP) · Mídias: Wikimedia Commons (CC-BY-SA)</div>
+  </div>
+
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-head">
+        <div class="title modal-title" style="font-size:16px">Exercício</div>
+        <button class="btn outline close-modal" style="font-size:12px">Fechar</button>
+      </div>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
